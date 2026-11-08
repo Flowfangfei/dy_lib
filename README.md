@@ -8,6 +8,7 @@
 ```
 dy_lib/
 ├── README.md
+├── AGENTS.md                 # 给 AI Agent 的工作说明
 ├── CONTRIBUTING.md
 ├── LICENSE
 ├── .gitignore
@@ -187,6 +188,10 @@ node scripts/merge_exam.js run1
 | `HEADLESS` | `1` 无头模式（默认有头） |
 | `HOLD_SEC` | 交卷前保持秒数（默认 120） |
 | `EXAM_URL` | 可选，默认 `.../ExamPaper.aspx?EPID=8` |
+
+## 给 AI Agent
+
+仓库根部有 AGENTS.md，说明了铁律（选项乱序、cookie 不入库、以结果页为准）、完整命令流程与故障排查。让 Agent 先读它。
 
 ## 贡献
 
