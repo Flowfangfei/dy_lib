@@ -1,0 +1,9 @@
+runs/
+node_modules/
+.env
+*.cookie
+cookie.txt
+data/bank.json.bak
+data/bank.built.json
+.DS_Store
+Thumbs.db
